@@ -68,8 +68,13 @@ body::before {
 
 /* ==================== HEADER AND SIDE MENU ==================== */
 .site-header {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.site-header .logo {
   background: transparent;
-  border-bottom: none;
   box-shadow: none;
 }
 
